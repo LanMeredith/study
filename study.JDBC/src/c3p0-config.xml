@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<c3p0-config>
+    <!--
+    默认的配置，不需要就注释掉了
+    <default-config>
+        <property name="automaticTestTable">con_test</property>
+        <property name="checkoutTimeout">30000</property>
+        <property name="idleConnectionTestPeriod">30</property>
+        <property name="initialPoolSize">10</property>
+        <property name="maxIdleTime">30</property>
+        <property name="maxPoolSize">100</property>
+        <property name="minPoolSize">10</property>
+        <property name="maxStatements">200</property>
+
+        <user-overrides user="test-user">
+            <property name="maxPoolSize">10</property>
+            <property name="minPoolSize">1</property>
+            <property name="maxStatements">0</property>
+        </user-overrides>
+
+    </default-config>
+    -->
+
+    <!-- This app is massive! -->
+    <named-config name="StudyC3P0">
+        <!--提供获取连接的四个基本信息，四个信息的名字有着严格的标准，不能错，大小写也要区分开-->
+        <property name="driverClass">com.mysql.jdbc.Driver</property>
+        <!--不准用&符号就用&amp;代替-->
+        <property name="jdbcUrl">
+            jdbc:mysql://localhost:3306/study_jdbc?characterEncoding=UTF-8&amp;rewriteBatchStatements=true
+        </property>
+        <property name="user">root</property>
+        <property name="password">study</property>
+
+        <!--进行数据库连接池管理的基本信息-->
+        <!--当数据库连接池中的连接数不够时，C3P0一次性向数据库服务器申请的连接数-->
+        <property name="acquireIncrement">5</property>
+        <!--C3P0数据库连接池中初始化时的连接数-->
+        <property name="initialPoolSize">10</property>
+        <!--C3P0数据库连接池中维护的最少连接数-->
+        <property name="minPoolSize">10</property>
+        <!--C3P0数据库连接池当中维护的最多的连接数，同时超过一百个连接时，第101个连接需要等待-->
+        <property name="maxPoolSize">100</property>
+
+        <!-- StudyC3P0 adopts a different approach to configuring statement caching -->
+        <!--C3P0数据库连接池最多维护的Statement的个数-->
+        <property name="maxStatements">50</property>
+        <!--每个连接中可以最多使用的Statement的个数-->
+        <property name="maxStatementsPerConnection">5</property>
+
+        <!-- he's important, but there's only one of him -->
+        <!--
+        用户需要重写的，不需要，注释掉
+        <user-overrides user="master-of-the-universe">
+            <property name="acquireIncrement">1</property>
+            <property name="initialPoolSize">1</property>
+            <property name="minPoolSize">1</property>
+            <property name="maxPoolSize">5</property>
+            <property name="maxStatementsPerConnection">50</property>
+        </user-overrides>
+        -->
+    </named-config>
+
+
+</c3p0-config>

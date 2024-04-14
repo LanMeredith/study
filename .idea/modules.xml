@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learn.algorithm/learn.algorithm.iml" filepath="$PROJECT_DIR$/learn.algorithm/learn.algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn.datastructures/learn.datastructures.iml" filepath="$PROJECT_DIR$/learn.datastructures/learn.datastructures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.JDBC/lib.iml" filepath="$PROJECT_DIR$/study.JDBC/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice.engineering/practice.engineering.iml" filepath="$PROJECT_DIR$/practice.engineering/practice.engineering.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.iml" filepath="$PROJECT_DIR$/study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.JDBC/study.JDBC.iml" filepath="$PROJECT_DIR$/study.JDBC/study.JDBC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.RegExp/study.Regexp.iml" filepath="$PROJECT_DIR$/study.RegExp/study.Regexp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.abstract/study.abstract.iml" filepath="$PROJECT_DIR$/study.abstract/study.abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.annotation/study.annotation.iml" filepath="$PROJECT_DIR$/study.annotation/study.annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.arrays/study.arrays.iml" filepath="$PROJECT_DIR$/study.arrays/study.arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.collection/study.collection.iml" filepath="$PROJECT_DIR$/study.collection/study.collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.comparator/study.comparator.iml" filepath="$PROJECT_DIR$/study.comparator/study.comparator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.constructor/study.constructor.iml" filepath="$PROJECT_DIR$/study.constructor/study.constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.date/study.date.iml" filepath="$PROJECT_DIR$/study.date/study.date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.enumeration/study.enumeration.iml" filepath="$PROJECT_DIR$/study.enumeration/study.enumeration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.equals/study.equals.iml" filepath="$PROJECT_DIR$/study.equals/study.equals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.exception/study.exception.iml" filepath="$PROJECT_DIR$/study.exception/study.exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.extends/study.extends.iml" filepath="$PROJECT_DIR$/study.extends/study.extends.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.generic/study.generic.iml" filepath="$PROJECT_DIR$/study.generic/study.generic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.interface/study.interface.iml" filepath="$PROJECT_DIR$/study.interface/study.interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.io/study.io.iml" filepath="$PROJECT_DIR$/study.io/study.io.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.nternet/study.nternet.iml" filepath="$PROJECT_DIR$/study.nternet/study.nternet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.object/study.object.iml" filepath="$PROJECT_DIR$/study.object/study.object.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.override/study.override.iml" filepath="$PROJECT_DIR$/study.override/study.override.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.packaging/study.packaging.iml" filepath="$PROJECT_DIR$/study.packaging/study.packaging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.polymorphism/study.polymorphism.iml" filepath="$PROJECT_DIR$/study.polymorphism/study.polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.recursion/study.recursion.iml" filepath="$PROJECT_DIR$/study.recursion/study.recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.reflection/study.reflection.iml" filepath="$PROJECT_DIR$/study.reflection/study.reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.singleton/study.singleton.iml" filepath="$PROJECT_DIR$/study.singleton/study.singleton.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.static/study.static.iml" filepath="$PROJECT_DIR$/study.static/study.static.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.stream/study.stream.iml" filepath="$PROJECT_DIR$/study.stream/study.stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.string/study.string.iml" filepath="$PROJECT_DIR$/study.string/study.string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.super/study.super.iml" filepath="$PROJECT_DIR$/study.super/study.super.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.thread/study.thread.iml" filepath="$PROJECT_DIR$/study.thread/study.thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study.wrapper/study.wrapper.iml" filepath="$PROJECT_DIR$/study.wrapper/study.wrapper.iml" />
+    </modules>
+  </component>
+</project>
